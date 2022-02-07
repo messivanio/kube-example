@@ -6,7 +6,7 @@ Just a [kustomize](https://kustomize.io/) example.
 
 ## How To Install
 
-Use [asdf](https://github.com/asdf-vm/asdf) to install everything you need.
+Use [asdf](https://asdf-vm.com/) to install everything you need.
 
 ```bash
 # Clone this repository
