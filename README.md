@@ -3,6 +3,7 @@ kube-example
 
 Just a [kustomize](https://kustomize.io/) example.
 
+
 ## How To Install
 
 Use [asdf](https://github.com/asdf-vm/asdf) to install everything you need.
@@ -28,5 +29,5 @@ Otherwise, manually install [each tool version](.tool-versions).
 $ cd overlays/lab1
  
 # Build and apply k8s resources
-$ kustomize build . --enable-helm | kubectl apply -f -
+$ kustomize build . | kubectl apply -f -
 ```
