@@ -1,0 +1,14 @@
+bases:
+  - ../../bases/example-base
+
+nameSuffix: -lab1
+
+namespace: lab1
+
+resources:
+  - namespace.yaml
+
+configMapGenerator:
+  - name: specific-vars
+    literals:
+    - LAB_NAME=one

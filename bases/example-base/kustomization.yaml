@@ -1,0 +1,9 @@
+resources:
+  - deploy-example.yaml
+  
+
+configMapGenerator:
+  - name: base-vars
+    literals:
+    - JAVA_HOME=/nowhere
+    - JAVA_TOOL_OPTIONS=disable

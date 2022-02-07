@@ -1,0 +1,18 @@
+bases:
+  - ../../bases/example-base
+
+nameSuffix: -lab2
+
+namespace: lab2
+
+resources:
+  - namespace.yaml
+
+configMapGenerator:
+  - name: specific-vars
+    literals:
+    - LAB_NAME=two
+
+images:
+  - name: messivanio/example
+    newTag: 0.0.2
