@@ -15,4 +15,4 @@ configMapGenerator:
 
 images:
   - name: messivanio/example
-    newTag: 0.0.2
+    newTag: 0.0.1-lab1 # {"$imagepolicy": "flux-system:messivanio-example-image-policy-lab2:tag"}

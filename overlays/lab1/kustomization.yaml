@@ -12,3 +12,7 @@ configMapGenerator:
   - name: specific-vars
     literals:
     - LAB_NAME=one
+
+images:
+  - name: messivanio/example
+    newTag: 0.0.1-lab1 # {"$imagepolicy": "flux-system:messivanio-example-image-policy-lab1:tag"}
